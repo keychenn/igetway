@@ -20,11 +20,13 @@ environments {
     }
     test {
         dataSource {
+			woshichenzhaozhen
             dbCreate = "update"
             url = "jdbc:hsqldb:mem:testDb"
         }
     }
     production {
+		ok i am chenzhaozhen 
         dataSource {
             dbCreate = "update"
             url = "jdbc:hsqldb:file:prodDb;shutdown=true"
